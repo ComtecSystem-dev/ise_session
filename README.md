@@ -4,19 +4,21 @@
 
 ## Required package
 	pip intall requests
-  pip intall xmltodict
-  pip intall PyQt5
-  (you can see this : https://pypi.org/project/PyQt5/)
+	pip intall xmltodict
+	pip intall PyQt5
+	(you can see this : https://pypi.org/project/PyQt5/)
+	and install the "Runtime Compiler C++2015)
 
 ## Used to
  this support is tow mode.
  - cli mode : only delete(session, mac, ip)
  - gui mode : any function(show session, delete session/mac/ip)
 
-#### Connection example
-	from cims_db import db_manager
-	conn_state = dbmanager.Connect('<HOST_IP>', '<HOST_PORT>', '<DB_NAME>', '<ID>', '<PW>')
-	if conn_state == True:
-		print ("Connection is OK")
-	else:
-		print ("Connection is Failed")
+#### cli example
+	python3 ise_session.py
+	<input the ISE IP / ID / PW>
+	<Select Menu>
+	
+#### gui example
+	python3 ise_session_gui.py
+	
