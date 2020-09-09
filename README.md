@@ -16,9 +16,9 @@
 
 #### cli example
 	python3 ise_session.py
-	<img src="./doc/ise_session_cli.png">
+<img src="./doc/ise_session_cli.png">
 	
 #### gui example
 	python3 ise_session_gui.py
-	<img src="./doc/ise_session_gui.png">
+<img src="./doc/ise_session_gui.png">
 	
