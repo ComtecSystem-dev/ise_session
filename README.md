@@ -14,6 +14,9 @@
  - cli mode : only delete(session, mac, ip)
  - gui mode : any function(show session, delete session/mac/ip)
 
+#### install
+ - pip install -r requirements.txt
+
 #### cli example
 	python3 ise_session.py
 <img src="./doc/ise_session_cli.png">
@@ -22,3 +25,6 @@
 	python3 ise_session_gui.py
 <img src="./doc/ise_session_gui.png">
 	
+
+## License
+This project is licensed under the Apache License 2.0 - see the LICENSE.md file for details.
