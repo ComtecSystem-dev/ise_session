@@ -15,7 +15,7 @@
  - gui mode : any function(show session, delete session/mac/ip)
 
 #### install
- - pip install -r requirements.txt
+	pip install -r requirements.txt
 
 #### cli example
 	python3 ise_session.py
