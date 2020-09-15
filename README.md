@@ -3,19 +3,21 @@
  - you can see the active session in CISCO ISE
 
 ## Required package
+you can see the [requirements.txt](./requirements.txt) file
 	pip intall requests
 	pip intall xmltodict
 	pip intall PyQt5
 	(you can see this : https://pypi.org/project/PyQt5/)
-	and install the "Runtime Compiler C++2015)
+	and install the [Runtime Compiler C++2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145))
 
-## Used to
+#### 1. install
+	pip install -r requirements.txt
+
+
+## Run is
  this support is tow mode.
  - cli mode : only delete(session, mac, ip)
  - gui mode : any function(show session, delete session/mac/ip)
-
-#### install
-	pip install -r requirements.txt
 
 #### cli example
 	python3 ise_session.py
