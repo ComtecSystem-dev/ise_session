@@ -4,14 +4,18 @@
 
 ## Required package
 you can see the [requirements.txt](./requirements.txt) file
+
 	pip intall requests
 	pip intall xmltodict
 	pip intall PyQt5
 	(you can see this : https://pypi.org/project/PyQt5/)
-	and install the [Runtime Compiler C++2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145))
+	and install the Runtime Compiler C++2015
 
 #### 1. install
 	pip install -r requirements.txt
+	
+#### 2. Runtime compiler C++2015
+	install the [Runtime Compiler C++2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
 
 ## Run is
