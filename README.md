@@ -2,27 +2,28 @@
  - This is the session delete of CISCO ISE script.
  - you can see the active session in CISCO ISE
 
-## Required package
-you can see the [requirements.txt](./requirements.txt) file
+## Installation and Run
+#### 1. Clone the repo
+	git clone https://github.com/JungnamKim-dev/ise_session.git
 
-	pip intall requests
-	pip intall xmltodict
-	pip intall PyQt5
-	(you can see this : https://pypi.org/project/PyQt5/)
-	and install the Runtime Compiler C++2015
+#### 2. change into directory
+	cd ise_session
 
-#### 1. install
-	pip install -r requirements.txt
+#### 3. Create the virtual environment in a sub dir in the same directory
+	python3 -m venv venv
 	
-#### 2. Runtime compiler C++2015
+#### 4. Start the virtual environment and install requirements.txt from the <ise_session>
+	source venv/bin/activate
+	pip install -r requirements.txt 
+	
+#### 5. Runtime compiler C++2015
 install the [Runtime Compiler C++2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
-
-
-## Run is
- this support is tow mode.
+	
+## Run
+this support is tow mode.
  - cli mode : only delete(session, mac, ip)
  - gui mode : any function(show session, delete session/mac/ip)
-
+ 
 #### cli example
 	python3 ise_session.py
 <img src="./doc/ise_session_cli.png">
