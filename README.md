@@ -15,7 +15,7 @@ you can see the [requirements.txt](./requirements.txt) file
 	pip install -r requirements.txt
 	
 #### 2. Runtime compiler C++2015
-	install the [Runtime Compiler C++2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+install the [Runtime Compiler C++2015](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 
 
 ## Run is
